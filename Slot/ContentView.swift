@@ -136,6 +136,7 @@ struct ContentView: View {
                 HStack{
                    Spacer()
                     
+                    
                    CardView(symbol: $symbols[numbers[0]],
                    background: $backgrounds[0])
                     
